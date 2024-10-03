@@ -1,0 +1,13 @@
+.workspace {
+  display: flex;
+  justify-content: space-evenly;
+}
+.title {
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .workspace {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
